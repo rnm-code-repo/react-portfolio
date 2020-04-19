@@ -18,6 +18,8 @@ function resetColor(e) {
 function showAbout() {
   const anchor = document.querySelector('#about')
   anchor.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+  const element = document.getElementById("_about");
+  element.classList.add("active");
 }
 
 class Home extends Component {

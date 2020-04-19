@@ -8,18 +8,7 @@ class Navbar extends Component {
   render() {
     return(
       <Nav className="empNav" activeKey="/home">
-        {/*<ul style={{display:"flex", listStyle: "none" }}>
-          <li>
-            <Link to="/about">ABOUT</Link>
-          </li>
-          <li>
-            <Link to="/portfolio">PORTFOLIO</Link>
-          </li>
-          <li>
-            <Link to="/contact">CONTACT</Link>
-          </li>
-    </ul>*/}
-        <NavLink to="/about" exact activeClassName='active'>ABOUT</NavLink>
+        <NavLink to="/about" id="_about" exact activeClassName='active'>ABOUT</NavLink>
         <NavLink to="/portfolio" exact activeClassName='active'>PORTFOLIO</NavLink>
         <NavLink to="/contact" exact activeClassName='active'>CONTACT</NavLink>
       </Nav>

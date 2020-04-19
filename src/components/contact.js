@@ -21,7 +21,7 @@ class Contact extends Component {
       <h2 className="pageHeaders">Contact Me</h2>  
         <Card style={{ width: '40%', lineHeight: '80px' }}>
             <Card.Body>
-                <Card.Title><h3>Let's build something awsome!!</h3></Card.Title>
+                <Card.Title><h3>Let's build something awesome!!</h3></Card.Title>
                 <Card.Text>
                 <div>Want to know more about me. Please visit my profile @ <FontAwesomeIcon icon={faLinkedin} size="2x" color="#0077b5"/></div>
                 <div>Checkout my work @ <FontAwesomeIcon icon={faGithub} size="2x" /></div>
