@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./about";
 import Portfolio from "./portfolio";
 import Contact from "./contact";
-import HomePage from "./home";
+import Home from "./home";
 
 /*class Main extends Component {
   render() {
@@ -22,7 +22,8 @@ function Main() {
     <div>
       <Router>
         <Switch>
-          <Route exact={true} path="/" component={HomePage} />
+        <Route exact={true} path="/" component={Home} />
+          <Route exact={true} path="/react-protfolio" component={Home} />
           <Route exact={true} path="/about" component={About} />
           <Route exact={true} path="/portfolio" component={Portfolio} />
           <Route exact={true} path="/contact" component={Contact} />
