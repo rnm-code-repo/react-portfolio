@@ -23,10 +23,25 @@ class Contact extends Component {
             <Card.Body>
                 <Card.Title><h3>Let's build something awesome!!</h3></Card.Title>
                 <Card.Text>
-                <div>Want to know more about me. Please visit my profile @ <FontAwesomeIcon icon={faLinkedin} size="2x" color="#0077b5"/></div>
-                <div>Checkout my work @ <FontAwesomeIcon icon={faGithub} size="2x" /></div>
-                <div>Checkout my bio @ <FontAwesomeIcon icon={faFilePdf} size="2x" color="#cf1b21"/></div>  
-                <div>Email me @ <a href="mailto:rnmadalli@gmail.com">rnmadalli@gmail.com</a></div>
+                <div>Want to know more about me. Please visit my profile @ &nbsp;&nbsp;&nbsp;
+                    <a href="https://www.linkedin.com/in/rekha-madalli-6b597119b/" 
+                       target="_blank" rel="noopener noreferrer">
+                      <FontAwesomeIcon icon={faLinkedin} size="2x" color="#0077b5"/>
+                    </a>
+                </div>
+                <div>Checkout my work @ &nbsp;&nbsp;&nbsp;
+                    <a href="https://github.com/rnm-code-repo?tab=repositories" 
+                       target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
+                      <FontAwesomeIcon icon={faGithub} size="2x" />
+                    </a>
+                </div>
+                <div>Checkout my bio @ &nbsp;&nbsp;&nbsp;
+                    <a href="https://rnm-code-repo.github.io/MyPortfolio/assets/docs/RekhaNM.pdf" 
+                       target="_blank" rel="noopener noreferrer">
+                      <FontAwesomeIcon icon={faFilePdf} size="2x" color="#cf1b21"/>
+                    </a>
+                </div>  
+                <div>Email me @ &nbsp;&nbsp;&nbsp;<a href="mailto:rnmadalli@gmail.com">rnmadalli@gmail.com</a></div>
                 </Card.Text>
                 </Card.Body>
         </Card>
