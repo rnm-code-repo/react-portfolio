@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { CardGroup, Card, CardDeck } from "react-bootstrap";
+import {  Card, CardDeck } from "react-bootstrap";
 import burger from "../burger.png";
 import cookout from "../Cookout.png";
 import fintrack from "../FinTrack.png";
