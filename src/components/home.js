@@ -30,7 +30,7 @@ class Home extends Component {
         {/*<img src={logo} className="App-logo" alt="logo" />*/}
         <p className="Home">
           Hello, welcome to my world! <br/>
-          I am Full-stack web developer. <br/>Avid learner with key interest in new development techniques
+          I am a Full-stack web developer. <br/>Avid learner with key interest in new development techniques
         </p>
         <div onMouseOver={onHover} onMouseOut={resetColor}
           className="App-link"
