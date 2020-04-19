@@ -1,12 +1,17 @@
-import React from 'react';
+import React, {Router, Route, Switch} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Main from './components/main';
+import Portfolio from './components/portfolio'
+import Contact from './components/contact'
 import * as serviceWorker from './serviceWorker';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Main />
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
