@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Card, Navbar} from 'react-bootstrap'
+import {Card} from 'react-bootstrap'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faFilePdf } from "@fortawesome/free-regular-svg-icons";

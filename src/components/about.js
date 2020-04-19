@@ -1,20 +1,13 @@
-import React, { Component, Router, Progress } from "react";
+import React from "react";
 import NavBar from "../contents/nav";
-import { Image, ProgressBar } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 import "../App.css";
 import Footer from './footer'
 import photo from "../profile.jpg";
-import Bar from "./bar";
 
-{
-  /*class About extends Component { 
-    render() {*/
-}
+
 function About() {
-  const now = 60;
-
-  const progressInstance = <ProgressBar now={now} label={`${now}%`} srOnly />;
-
+  
   return (
     <div>
       <section id="about">
