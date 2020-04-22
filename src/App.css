@@ -34,7 +34,7 @@
 .about-page {
   display: inline;
   flex-direction: row;
-  min-height: 90vh;
+  min-height: calc(90vh - 100px);
   display: flex;
   flex-direction: row;
   text-align: start;
@@ -85,7 +85,7 @@
 }
 
 .contact-page {
-  
+  min-height: calc(95vh - 100px);
   justify-content: center;
   background-color: whitesmoke;
 }
