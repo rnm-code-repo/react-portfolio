@@ -44,16 +44,16 @@ function About() {
               drives.
             </p>
           </div>
-          <div className="techData" style={{ padding: "5px" }}>
-              <div style={{width: "55%", color: "#fff", background: "#4ca9c7", margin: "3px"}} >&nbsp;&nbsp;&nbsp;CSS:&nbsp;&nbsp;&nbsp;&nbsp;65%</div>
+          <div className="techData" style={{ padding: "10px" }}>
+              <div style={{width: "55%", color: "#fff", background: "#4ca9c7", margin: "10px"}} >&nbsp;&nbsp;&nbsp;CSS:&nbsp;&nbsp;&nbsp;&nbsp;65%</div>
               
-              <div style={{width: "65%", color: "#fff", background: "#354b9c", margin: "3px"}} >&nbsp;&nbsp;&nbsp;HTML:&nbsp;&nbsp;&nbsp;&nbsp;75%</div>
-              <div style={{width: "55%", color: "#fff", background: "#b44cc7", margin: "3px"}} >&nbsp;&nbsp;&nbsp;Javascript:&nbsp;&nbsp;&nbsp;&nbsp;85%</div>
-              <div style={{width: "80%", color: "#fff", background: "#c79b4c", margin: "3px"}} >&nbsp;&nbsp;&nbsp;NodeJS:&nbsp;&nbsp;&nbsp;&nbsp;80%</div>
-              <div style={{width: "80%", color: "#fff", background: "#c74c74", margin: "3px"}} >&nbsp;&nbsp;&nbsp;Express:&nbsp;&nbsp;&nbsp;&nbsp;80%</div>
-              <div style={{width: "60%", color: "#fff", background: "#c7854c", margin: "3px"}} >&nbsp;&nbsp;&nbsp;React:&nbsp;&nbsp;&nbsp;&nbsp;60%</div>
-              <div style={{width: "65%", color: "#fff", background: "#354b9c", margin: "3px"}} >&nbsp;&nbsp;&nbsp;MySQL/ORM:&nbsp;&nbsp;&nbsp;&nbsp;65%</div>
-              <div style={{width: "50%", color: "#fff", background: "#4cc761", margin: "3px"}} >&nbsp;&nbsp;&nbsp;Mongo:&nbsp;&nbsp;&nbsp;&nbsp;50%</div>
+              <div style={{width: "65%", color: "#fff", background: "#354b9c", margin: "10px"}} >&nbsp;&nbsp;&nbsp;HTML:&nbsp;&nbsp;&nbsp;&nbsp;75%</div>
+              <div style={{width: "55%", color: "#fff", background: "#b44cc7", margin: "10px"}} >&nbsp;&nbsp;&nbsp;Javascript:&nbsp;&nbsp;&nbsp;&nbsp;85%</div>
+              <div style={{width: "80%", color: "#fff", background: "#c79b4c", margin: "10px"}} >&nbsp;&nbsp;&nbsp;NodeJS:&nbsp;&nbsp;&nbsp;&nbsp;80%</div>
+              <div style={{width: "80%", color: "#fff", background: "#c74c74", margin: "10px"}} >&nbsp;&nbsp;&nbsp;Express:&nbsp;&nbsp;&nbsp;&nbsp;80%</div>
+              <div style={{width: "60%", color: "#fff", background: "#c7854c", margin: "10px"}} >&nbsp;&nbsp;&nbsp;React:&nbsp;&nbsp;&nbsp;&nbsp;60%</div>
+              <div style={{width: "65%", color: "#fff", background: "#354b9c", margin: "10px"}} >&nbsp;&nbsp;&nbsp;MySQL/ORM:&nbsp;&nbsp;&nbsp;&nbsp;65%</div>
+              <div style={{width: "50%", color: "#fff", background: "#4cc761", margin: "10px"}} >&nbsp;&nbsp;&nbsp;Mongo:&nbsp;&nbsp;&nbsp;&nbsp;50%</div>
           </div>
         </div>
         <Footer/>
