@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {  Card, CardDeck } from "react-bootstrap";
-import burger from "../burger.png";
+import garage from "../myGarage.png";
 import cookout from "../Cookout.png";
 import fintrack from "../FinTrack.png";
 import weather from "../Weather.png";
@@ -31,12 +31,12 @@ class Portfolio extends Component {
           
           <CardDeck>
             <Card>
-              <Card.Img variant="top" src={burger} />
+              <Card.Img variant="top" src={garage} />
               <Card.Body>
                 <Card.Title>
                   <div className="extLink">
                     <a
-                      href="https://limitless-wildwood-71279.herokuapp.com/"
+                      href="https://lit-scrubland-58683.herokuapp.com/mygarage-kaera"
                       target="_blank"
                       rel="noopener noreferrer"
                       onMouseOver={onHover}
@@ -48,7 +48,7 @@ class Portfolio extends Component {
                   NodeJS/Express
                   <div className="gitLink">
                     <a
-                      href="https://github.com/rnm-code-repo/Best--Burgers"
+                      href="https://github.com/smaji08/mygarage-kaera"
                       target="_blank"
                       rel="noopener noreferrer"
                       onMouseOver={onHover}
@@ -60,12 +60,13 @@ class Portfolio extends Component {
                 </Card.Title>
                 <Card.Text>
                   <br />
-                  This applicaiton shows an order processing system for
-                  restaurant. Allows user to place order, and restaurant to
-                  process the order in queue.
+                  My Garage is an Application that provides you with the facility of
+                  Create your personal account to add Vehicles that will be taken care for you.
+                  Book an appointment to get your vehicle serviced.
+                  Buying the parts.
+                  Chat with Technicians with any concerns that you might have.
                   <br />
-                  Application showcases NodeJS/Express, Handlebar and ORM in
-                  action.
+                  Application showcases MERN Stack, ORM.
                 </Card.Text>
               </Card.Body>
             </Card>
