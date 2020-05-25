@@ -45,7 +45,7 @@ class Portfolio extends Component {
                       Visit Site
                     </a>
                   </div>
-                  NodeJS/Express
+                  MERN Stack
                   <div className="gitLink">
                     <a
                       href="https://github.com/smaji08/mygarage-kaera"
